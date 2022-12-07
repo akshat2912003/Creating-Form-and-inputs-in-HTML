@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>FORMS and INPUTS</title>
+</head>   
+<body>
+<h2> This is HTML Form Tutorial </h2>    
+<form>
+<div>    
+Name: <input type="text" name="my name" >
+</div>
+<br/>
+<div>
+Roll: <input type="text" name="my roll">
+</div>
+<br/>
+<div>
+Email: <input type="text" name="my email">    
+</div>
+<br/>
+<div>
+Date: <input type="date" name="my date">    
+</div>
+<br/>
+<div>
+Bonus: <input type="number" name="my bonus">    
+</div>
+<br/>
+<div>
+Are you Eligible: <input type="checkbox" name="my Elegibilty">    
+</div>
+<br/>
+<div>
+Gender: Male<input type="radio" name="my gender"> Female <input type="radio" name="my gender">    
+other <input type="radio" name="my gender">
+</div>
+<div>
+write about yourself: <br><textarea name="mytext" cols="50" row="40"></textarea>  
+</div>
+</br>
+<div>
+<label for="car">Car</label>
+<select name="my car" id="car">
+    <option value="ind">Indica</option>
+    <option value="swf">Swift</option>
+</select>    
+</div>
+</br>
+<div>
+<input type="submit" value="Submit now">    
+</div>
+</br>
+<div>
+<input type="reset" value="reset now">    
+</div>
+</form>
+</body>
+</html>
